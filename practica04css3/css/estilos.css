@@ -1,0 +1,60 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0 auto;
+	min-width: 1078px;
+	max-width: 1078px;
+}
+header {
+	height: 210px;
+	border-bottom: 2px dashed gray;
+}
+header nav{
+	margin-left: -38px;
+	margin-top: 50px;
+}
+header nav ul li{
+	color: black;
+	display: inline-block;
+	font-size: 1.2em;
+	margin-right: 15px;
+	padding-bottom: 2px;
+	/*text-decoration: underline;*/
+}
+#seccion01art01parte01 {
+	border-bottom: 2px dashed gray;
+}
+#seccion01 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#buy{
+	position: relative;
+	margin-bottom: -120px;
+    margin-left: 350px;
+}
+#go_to_shop{
+	position:relative;
+	margin-bottom: -90px;
+}
+#logo_rojo{
+	position: relative;
+}
+#bandera{
+	position: relative;
+}
+#mundo{
+	position: relative;
+}
+.nito{
+	font-weight: bold;
+}
+.Letragrande{
+	font-size: 4.3em;
+}
+.colorverde{
+	color: #74f33f;
+}
+.letragris{
+	color: gray;
+}

@@ -1,0 +1,134 @@
+body {
+
+	font-size: 16px; /*1em*/
+	margin: 0 auto;
+	min-width: 1078px;
+	max-width: 1078px;
+
+}
+header {
+	background-color: #3a3a3a;
+	display: inline-block;
+	width: 1078px;
+	
+}
+header img {
+	vertical-align: middle;
+}
+header article {
+	display: inline-block;
+	margin-left: 280px;
+	margin-top: 10px;
+
+}
+header input {
+	background:#8bc500;
+	color:white;
+
+}
+
+#seccion01 {
+	background-color: #e62c85;
+}
+#seccion01 article {
+	display: inline-block;
+	/*border:1px solid red;*/
+	text-align: center;
+	vertical-align: top;
+	height: 58px;
+	margin-left: 70px;
+	margin-top: 10px;
+	
+}
+#seccion02 {
+	background-color: #262626;
+}
+#seccion02 article {
+	margin-left: 70px;
+	display: inline-block;
+	/*border:1px solid red;*/
+	vertical-align: top;
+}
+#seccion01 input {
+width:240px;
+height: 25px;
+margin-top: 10px;
+color: #e62c85;
+}
+#seccion02 input {
+	text-align: center;
+	background-color: #3fc8cb;
+   width:210px;
+   height: 55px;
+margin-top: 10px;
+color: #ffffff;
+border-style: none;
+}
+#seccion03 {
+	background-color: #ef8c24;
+	
+}
+.letrablanca {
+	color: #FFFFFF;
+
+}
+.letragrande {
+	font-size: 1.5em;
+}
+.letrarosa {
+	color:#e62c85
+}
+.letrachica {
+	font-size: 1.0em;
+}
+
+.letrainput {
+	font-size: 0.9em;
+}
+#libros {
+	height: 350px;
+	width: 350px;
+}
+.letragrande2 {
+	font-size: 1.7em;
+}
+.letragrande3 {
+	font-size: 2.2em;
+}
+.nito{
+	font-weight: bold;
+}
+ #input1 {
+ 	width: 80px;
+ 	height:30px;
+ 	text-align: center;
+	background:#262626;
+	border-style: normal;
+	color:white;
+
+}
+#input2 {
+	width: 80px;
+ 	height:30px;
+ 	text-align: center;
+	background:#3fc8cb;
+	border-color:#3fc8cb; 
+	border-style: none;
+
+}
+#sitepoint {
+	position: relative;
+	top: -25px;
+}
+.letragris {
+	color: #7e7e7e;
+}
+.letragriss {
+	color: #e7ceb8;
+}
+#seccion03art04 {
+	margin-left: 10px;
+}
+#seccion03art05 {
+	margin-left: 10px;
+}

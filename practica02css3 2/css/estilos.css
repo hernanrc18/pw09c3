@@ -1,0 +1,123 @@
+body{
+font-size: 16px;
+margin: 0px auto;
+max-width: 1078px;
+min-height: 1078px;
+
+}
+header input{
+	float: right;
+	margin-right: -200px;
+	margin-top: 30px;
+	position: relative;
+
+}
+header nav {
+	margin-left: 220px;
+	
+}
+header nav ul li {
+	border-bottom: 1px solid gray;
+	color: gray;
+	display: inline-block;
+	font-size: 1.8em;
+	margin-right: 15px;
+	padding-bottom: 2px;
+	/*text-decoration:underline;*/
+	
+}
+#bg_offer {
+	left: -35px;
+	position: relative;
+	top: -410px;
+}
+#primerseccion {
+	/*border:1px solid blue;*/
+	height: 318px;
+	margin-top: 60px;
+}
+#primerseccion article {
+	display: inline-block;
+	/*border:1px solid red;*/
+	vertical-align: top;
+}
+
+#granthams {
+	margin-left: 25px;
+	margin-top: 25px;
+
+}
+#paint{
+	float: right;
+}
+
+#secc01art01 {
+	margin-left:30px;
+	width:61%;
+}
+
+#secc01art02 {
+	margin-left: 50px;
+	width:30%;
+}
+#secc01art02 ul{
+	list-style:none; /*quitamos vinetas*/
+}
+#secc01art02 ul li:before {
+	color:#b28787;
+	content: "• ";
+
+}
+#secc03art04 {
+	padding-top: 60px;
+}
+#segundaseccion article {
+	padding-right: 130px;
+	text-align: right;
+}
+#terceraseccion article {
+	vertical-align: top;
+	padding-left:8px; 
+	width: 23%;
+	display:inline-block;
+}
+#terceraseccion article img{
+	/*alineacion vertical del texto que lo rodea*/
+	vertical-align: middle;
+}
+#terceraseccion article input[type="email"]{
+	/*alineacion vertical del texto que lo rodea*/
+	border-radius: 5px;
+
+}
+#terceraseccion article input[type="button"] {
+	background:#8bc500;
+	border-radius: 5px;
+	color:white;
+}
+.colorrosa{
+	color:#FF0099;
+
+}
+.letragrande {
+	font-size: 3.5em;
+}
+.letramediana {
+	font-size: 2em;
+}
+.nito{
+	font-weight: bold;
+}
+.colorazul{
+	color:#4267b3;
+}
+.colorverde{
+	color:#8bc500;
+}
+
+
+
+
+
+
+

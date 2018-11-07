@@ -1,0 +1,72 @@
+img[alt]{
+	border:5px solid blue;
+}
+img [src="logo_tec.png"] {
+	width: 400px;
+}
+/* imagen con el atributo src al inicio de la cadena*/
+img [src^="img/"]{
+	width: 150px;
+} /* el signo $ busca al final de la cadena de src*/
+img[src$="png"] {
+	width: 250px;
+}
+img [src*="mg/"] {
+	width: 1000px;
+}
+/* el caracter ~ indica que estos selectores estan separados por espacios*/
+article[class~="resaltado"]{
+	border: 1px dashed blue;
+}
+article[class~="archivo"]{
+	border:1px dashed red;
+}
+article[class~="ingles"]{
+	border:1px dashed green;
+}
+/*El caracter | (pipe) distingue las clases separadas por guiones*/
+article[class|= "ingles"] {
+	text-align: center;
+
+}
+/* seleccionar solamente las p que se encuentran inmediatamente despues del div*/
+div > p { /* solo hijos directos*/
+	color: blue;
+}
+div  p { 
+	color: red;
+}
+h2 + p {
+	color: gray;
+}
+h2 ~ p {
+	color: green;
+}
+/*poner en color ojo el texto de las secciones menos el id referencias*/
+#resumen,#experimento,#pruebas,#resultados,#conclusiones{
+	color: tomato;
+}
+/*poner en color azul el texto de las secciones menos el id referencias*/
+section:not(#referencias){
+	color: blue;
+}
+li:nth-child(odd) {
+color: green;
+
+ /*impares*/
+}
+li:nth-child(even) {
+color: green;
+
+ /*impares*/
+}
+li:nth-child(5) {
+	color: red;
+}
+li:nth-last-child(1){
+	color: purple;
+}
+p:first-line {
+	color: red;
+	font-weight: bold;
+}
