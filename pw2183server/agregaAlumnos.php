@@ -1,7 +1,8 @@
 <?php
+	header("Access-Control-Allow-Origin: *");
 	$ncontrol=$_POST["ncontrol"];
-	$nombre=$_POST"nombre"];
-	$apellido=$_POST"apellido"];
+	$nombre=$_POST["nombre"];
+	$apellido=$_POST["apellido"];
 	$edad=$_POST["edad"];
 
 	$servidor="localhost";
